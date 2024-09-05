@@ -1,3 +1,6 @@
-Figures/*.pdf
-Figure/*.png
-
+Figures/main/*.pdf
+Figures/main/*.png
+Figures/si/*.pdf
+Figures/si/*.png
+scritps
+data/*
