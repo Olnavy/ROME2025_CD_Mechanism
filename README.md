@@ -12,11 +12,11 @@ This oscillator mechanism is triggered under specific background conditions and 
 
 
 ## Reproducibility & Instructions
-Please refer to the paper to download the data necessary to run the notebooks. The data are accessible on the CEDA archive.
+To run the scripts, you will need to download the data from the CEDA archive accessible following this link https://catalogue.ceda.ac.uk/uuid/1f4ebb2944ec43a39ce6c69a8f1942fb/ . The data should be placed in the empty data folder included in this repository, conserving the existing hierarchy - the data file should contain the folders corresponding to the inputs and the model outputs. If needed, the location of the data can be modified by changing the "data_folder" variable in the notebooks.
 
-The Figures can be reproduced by running the notebooks after loading the rome2024_mechanism environment in conda.
+To make sure that you have the necessary pacakges to run the scripts, please load the rome2024_mechanism.yml environment in conda. You should not need to install any other package, but you mmay need to add the repository root directory to your path. Please uncomment the saving commands at the end of each Figure section to save the Figures. In order to reproduce the Figure exactly, you will need to have the Inter font (https://fonts.google.com/specimen/Inter) installed on your machine.
 
-If you want to reproduce exactly the Figures, you will need to have the Inter font (https://fonts.google.com/specimen/Inter) installed.
+If you experience an issue with this repository, please log an issue on the corresponding GitHub page (https://github.com/Olnavy/ROME2024_CD_Mechanism/).
 
 ## Experiment names
 
@@ -30,4 +30,4 @@ If you want to reproduce exactly the Figures, you will need to have the Inter fo
 | XPPBF | 20.7_no_gst | - |
 
 ## References
-No references
+No references to declare
